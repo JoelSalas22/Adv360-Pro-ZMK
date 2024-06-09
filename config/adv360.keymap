@@ -48,11 +48,11 @@
 
         keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
+&kp EQUAL  &kp N1            &kp N2        &kp N3        &kp N4          &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM        &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp Q             &kp W         &kp E         &kp R           &kp T   &none                                                    &none      &kp Y   &kp KP_N7         &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp ESC    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4         &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+&kp LSHFT  &kp Z             &kp X         &kp C         &kp V           &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1         &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&mo 2      &kp GRAVE         &kp CAPS      &kp LEFT      &kp RIGHT               &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp LEFT_BRACKET  &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
             >;
         };
 
@@ -68,11 +68,11 @@
 
         mod {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none      &none       &none          &none             &none          &none
-&none  &none         &none         &none         &none         &none         &bootloader                                            &kp PLUS                &kp MINUS  &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &none          &none
-&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &kp CARET  &kp HASH    &kp STAR       &kp DOLLAR        &kp PERCENT    &none
-&none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &kp EXCL   &kp TILDE   &kp AMPS       &kp PIPE          &kp MINUS      &none
-&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                    &bl BL_INC  &bl BL_DEC     &none             &kp BACKSLASH  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none      &none       &none       &none          &none           &none
+&none  &none         &none         &none         &none         &none         &bootloader                                            &trans                  &kp PLUS   &kp MINUS   &kp EQUAL   &kp LESS_THAN  &kp PERCENT     &none
+&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &kp CARET  &kp HASH    &kp STAR    &kp DOLLAR     &kp UNDERSCORE  &none
+&none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &kp EXCL   &kp TILDE   &kp AMPS    &kp PIPE       &kp BACKSLASH   &none
+&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                    &bl BL_INC  &bl BL_DEC  &none          &trans          &none
             >;
         };
     };
